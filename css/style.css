@@ -874,7 +874,24 @@ footer p{
         display: none;
     }
     .subTop>.leftBox{
-        top: 10%;
+        top: 5%;
+    }
+    .subTop>.leftBox>.movieInfo>span{
+        font-size: 14px;
+    }
+    .subTop>.leftBox>.movieInfo>div{
+        width: 35px;
+        height: 18px;
+    }
+    .subTop>.leftBox>.movieInfo>div>span{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .subTop>.leftBox>p{
+        padding: 0;
+    }
+    .subTop>.leftBox>.btnWrap{
+        padding: 5px 0;
     }
     .subBottom{
         top: 62%;
@@ -887,9 +904,6 @@ footer p{
         width: 700%;
     }
 
-    .subSlide>div span{
-        /* left: 120px; */
-    }
     .subBottom>.subBtnWrap>.rightBtn{
         right: 5px;
     }
