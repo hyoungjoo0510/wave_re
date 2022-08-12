@@ -399,7 +399,7 @@ $(function () {
         'speed': 100
     });
 
-    $('.parallaxBanner').parallax();
+    $('.parallaxBanner').parallax({androidFix: false});
 
     $(".line2").infiniteslide({
         'direction': 'right',
