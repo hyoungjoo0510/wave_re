@@ -746,12 +746,7 @@ footer p{
 }
 /* responsive */
 @media screen and (max-width: 1280px){
-    #nav>ul>li>a{
-        font-size: 14px;
-    }
-    .eventImg{
-        max-width: 180px;
-    }
+
     .originalsWrap .detail .detail-item .poster{
         max-width: 31.25vw;
     }
@@ -799,7 +794,6 @@ footer p{
         transform: scale(0.5);
     }
 
-
     .subTop>.movieLogo{
         right: 5%;
         max-width: 39.0625vw;
@@ -828,10 +822,22 @@ footer p{
 
 }
 @media screen and (max-width: 768px){
+    header{
+        padding: 10px 10px;
+    }
+    .ham{
+        transform: scale(0.7);
+    }
     #nav {
         max-width: initial;
         width: 100%;
         height: 100vh;
+    }
+    #nav>ul>li>a{
+        font-size: 10px;
+    }
+    .eventImg{
+        max-width: 130px;
     }
 }
 @media screen and (max-width: 640px) {
@@ -845,13 +851,7 @@ footer p{
     .section2>a{
         font-size: 12px;
     }
-    .ham{
-        transform: scale(0.7);
-    }
-    #nav>li>a{
-        display: block;
-        font-size: 12px;
-    }
+
 
     .originalsWrap ul.navigation {
         left: -280px;
