@@ -566,7 +566,7 @@ footer p{
 .subTop>.leftBox{
     position: absolute;
     left: 5%;
-    top: 15%;
+    top: 10%;
     max-width: 600px;
     padding: 20px;
     box-sizing: border-box;
