@@ -823,7 +823,7 @@ footer p{
 }
 @media screen and (max-width: 768px){
     header{
-        padding: 5px 0;
+        padding: 5px 10px;
     }
     .ham{
         transform: scale(0.7);
@@ -834,10 +834,10 @@ footer p{
         height: 100vh;
     }
     #nav>ul>li>a{
-        font-size: 10px;
+        font-size: 12px;
     }
     .eventImg{
-        max-width: 130px;
+        max-width: 180px;
     }
 }
 @media screen and (max-width: 640px) {
