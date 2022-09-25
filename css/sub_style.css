@@ -1,0 +1,306 @@
+#subWrap {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/sub_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  overflow: hidden;
+}
+#subWrap .subTop .leftBox {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  max-width: 600px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media screen and (max-width: 840px) {
+  #subWrap .subTop .leftBox {
+    left: 50%;
+    top: 15%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    max-width: 600px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+  #subWrap .subTop .leftBox {
+    top: 5%;
+  }
+}
+#subWrap .subTop .leftBox .movieInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#subWrap .subTop .leftBox .movieInfo > span {
+  font-family: "Noto Serif", serif;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  margin-right: 15px;
+}
+@media screen and (max-width: 640px) {
+  #subWrap .subTop .leftBox .movieInfo > span {
+    font-size: 14px;
+  }
+}
+#subWrap .subTop .leftBox .movieInfo > div {
+  width: 35px;
+  height: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin-right: 10px;
+}
+@media screen and (max-width: 640px) {
+  #subWrap .subTop .leftBox .movieInfo > div {
+    width: 35px;
+    height: 18px;
+  }
+}
+#subWrap .subTop .leftBox .movieInfo > div > span {
+  font-family: "Noto Serif", serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+@media screen and (max-width: 640px) {
+  #subWrap .subTop .leftBox .movieInfo > div > span {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+#subWrap .subTop .leftBox > p {
+  padding: 15px 0;
+  font-family: "Noto Serif", serif;
+  font-size: 64px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+@media screen and (max-width: 640px) {
+  #subWrap .subTop .leftBox > p {
+    padding: 0;
+    font-size: 10vw;
+  }
+}
+#subWrap .subTop .leftBox > .titleInfo {
+  max-width: 400px;
+  height: 220px;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 840px) {
+  #subWrap .subTop .leftBox > .titleInfo {
+    margin: 0 auto;
+  }
+}
+#subWrap .subTop .leftBox > .titleInfo > p {
+  font-size: 13px;
+  word-break: keep-all;
+  text-shadow: 2px 2px 3px black;
+}
+@media screen and (max-width: 480px) {
+  #subWrap .subTop .leftBox > .titleInfo > p {
+    font-size: 12px;
+  }
+}
+#subWrap .subTop .leftBox > .btnWrap {
+  max-width: 400px;
+  width: 100%;
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+@media screen and (max-width: 840px) {
+  #subWrap .subTop .leftBox > .btnWrap {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 640px) {
+  #subWrap .subTop .leftBox > .btnWrap {
+    padding: 5px 0;
+  }
+}
+#subWrap .subTop .leftBox > .btnWrap .favoritesBtn a {
+  display: block;
+  width: 120px;
+  line-height: 40px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
+}
+#subWrap .subTop .leftBox > .btnWrap .watchBtn {
+  position: relative;
+  width: 120px;
+  text-align: center;
+}
+#subWrap .subTop .leftBox > .btnWrap .watchBtn a {
+  display: block;
+}
+#subWrap .subTop .leftBox > .btnWrap .watchBtn a img {
+  width: 100%;
+}
+#subWrap .subTop .leftBox > .btnWrap .watchBtn a span {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 14px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+#subWrap .subTop .movieLogo {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  max-width: 400px;
+}
+@media screen and (max-width: 1024px) {
+  #subWrap .subTop .movieLogo {
+    right: 5%;
+    max-width: 39.0625vw;
+  }
+}
+@media screen and (max-width: 840px) {
+  #subWrap .subTop .movieLogo {
+    display: none;
+  }
+}
+#subWrap .subTop .movieLogo img {
+  width: 100%;
+}
+#subWrap .subBottom {
+  position: relative;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  max-width: 1400px;
+  padding: 0 30px;
+}
+@media screen and (max-width: 640px) {
+  #subWrap .subBottom {
+    top: 62%;
+  }
+}
+#subWrap .subBottom > h2 {
+  font-family: "Noto Serif", serif;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+  position: absolute;
+  left: 35px;
+  top: -30px;
+}
+@media screen and (max-width: 640px) {
+  #subWrap .subBottom > h2 {
+    font-size: 16px;
+    top: -15px;
+  }
+}
+#subWrap .subBottom .subslideWrap {
+  overflow: hidden;
+}
+#subWrap .subBottom .subslideWrap .subSlide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 175%;
+}
+@media screen and (max-width: 1024px) {
+  #subWrap .subBottom .subslideWrap .subSlide {
+    width: 350%;
+  }
+}
+@media screen and (max-width: 640px) {
+  #subWrap .subBottom .subslideWrap .subSlide {
+    width: 700%;
+  }
+}
+#subWrap .subBottom .subslideWrap .subSlide > div {
+  position: relative;
+  width: 14.2857142857%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#subWrap .subBottom .subslideWrap .subSlide > div .seasonBanner {
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-box-shadow: 0px 0px 0px black;
+          box-shadow: 0px 0px 0px black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#subWrap .subBottom .subslideWrap .subSlide > div .palyBtn {
+  opacity: 0;
+  width: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#subWrap .subBottom .subslideWrap .subSlide > div.active .seasonBanner {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-box-shadow: 3px 3px 5px black;
+          box-shadow: 3px 3px 5px black;
+}
+#subWrap .subBottom .subslideWrap .subSlide > div.active .palyBtn {
+  opacity: 1;
+}
+#subWrap .subBottom .subslideWrap .subSlide > div span {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-family: "Noto Serif KR", serif;
+  font-size: 14px;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+#subWrap .subBottom .subBtnWrap div {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  max-width: 32px;
+}
+#subWrap .subBottom .subBtnWrap div img {
+  width: 100%;
+}
+#subWrap .subBottom .subBtnWrap div.leftBtn {
+  left: 0;
+}
+@media screen and (max-width: 640px) {
+  #subWrap .subBottom .subBtnWrap div.leftBtn {
+    left: 5px;
+  }
+}
+#subWrap .subBottom .subBtnWrap div.rightBtn {
+  right: 0;
+}
+@media screen and (max-width: 640px) {
+  #subWrap .subBottom .subBtnWrap div.rightBtn {
+    right: 5px;
+  }
+}
